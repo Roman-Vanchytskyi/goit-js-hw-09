@@ -7,6 +7,7 @@ startBtn.addEventListener('click', startChangeColor);
 stopBtn.addEventListener('click', stopChangeColor);
 
 function startChangeColor() {
+  setColor();
   intervalId = setInterval(setColor, 1000);
   stopBtn.disabled = false;
   startBtn.disabled = true;
