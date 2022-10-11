@@ -21,8 +21,6 @@ const options = {
   },
 };
 
-console.log(111);
-
 const fp = new flatpickr('#datetime-picker', options);
 
 function choiseDate() {
