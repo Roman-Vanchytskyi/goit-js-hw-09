@@ -34,6 +34,7 @@ const onSubmitClick = event => {
         );
       });
   }
+  event.target.reset();
 };
 
 form.addEventListener('submit', onSubmitClick);

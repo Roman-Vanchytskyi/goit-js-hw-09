@@ -48,7 +48,7 @@ function startTimer() {
 
   intervalId = setInterval(() => {
     currMs = Math.floor((ms -= 1000));
-    if (currMs < 1000) {
+    if (currMs < 500) {
       clearInterval(intervalId);
     }
 
